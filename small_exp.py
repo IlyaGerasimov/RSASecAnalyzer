@@ -92,13 +92,17 @@ def poly_euclid(f, g, n):
 
 
 def poly_step(f, e, n):
-    f_init = f
+    if e == 0:
+        return [1]
+    if e == 1:
+        return f
+    s = [1]
     while e > 1:
-        f = poly_mul(f, f, n)
         if e % 2 == 1:
-            f = poly_mul(f, f_init, n)
+            s = poly_mul(s, f, n)
+        f = poly_mul(f, f, n)
         e = e // 2
-    return f
+    return poly_mul(f, s, n)
 
 
 def calc_poly(f, x, n):

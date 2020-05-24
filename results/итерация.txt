@@ -1,2 +1,0 @@
-Used the cipher-text: 164
-The result is 131

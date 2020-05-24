@@ -1,5 +1,0 @@
-Selected parameters:
-First cipher-text: 67
-Second cipher-text: 108
-message relations: m_1 = 160 * m_2 + 97 mod 187
-The result of the algorithm is: 67 and 158
