@@ -1,6 +1,8 @@
 from prime import is_prime
 import math
 import random
+from calc import pow
+
 
 def step(c, e, n):
     c_init = c

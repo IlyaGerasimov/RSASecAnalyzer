@@ -1,5 +1,6 @@
 import math
 import random
+from calc import pow
 
 # Решето Эратосфена
 def calculate_b_primes(b):

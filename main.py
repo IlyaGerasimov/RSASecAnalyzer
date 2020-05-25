@@ -9,6 +9,7 @@ import threading
 import argparse
 import math
 import random
+from calc import pow
 
 
 def parse_init():

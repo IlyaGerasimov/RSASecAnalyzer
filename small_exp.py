@@ -1,4 +1,5 @@
 import math
+from calc import pow
 
 
 class CustomException(Exception):
